@@ -1,0 +1,44 @@
+#console-box{
+    position:absolute;
+    top:100px; 
+    right:400px;
+    height:500px;
+    width:300px;
+    background-color:#000;
+    color: #55ff55;
+    font-family: monospace;
+    padding:6px; 
+  }
+
+#year-selector {
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+
+#firstDigit, #secondDigit, #thirdDigit, #lastDigit {
+    display: flex;
+    flex-direction: column;
+}
+
+#firstDigit button {
+  width: 20%;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+#secondDigit button {
+  width: 20%;
+  margin-left: 75px;
+  margin-top: 10px;
+}
+#thirdDigit button {
+  width: 20%;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+#lastDigit button {
+  width: 20%;
+  margin-left: 50px;
+  margin-top: 10px;
+}
