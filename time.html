@@ -22,27 +22,44 @@
           <a class="nav-link" href="time.html">Improved Time Design</a>
           <a class="nav-link" href="bad.html">Bad Designs</a>
           <a class="nav-link" href="https://github.com/rachelhoneycutt/silver-potato-JULIETTE">Repo</a>
-            <a class="nav-link" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frachelhoneycutt.github.io%2Fsilver-potato-JULIETTE%2F" target="_blank">Look at this pages validity!!</a>
-            <a class="nav-link" href="https://github.com/rachelhoneycutt" target="_blank">Check out my Github!</a>
+          <a class="nav-link" href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frachelhoneycutt.github.io%2Fsilver-potato-JULIETTE%2F" target="_blank">Look at this pages validity!!</a>
+          <a class="nav-link" href="https://github.com/rachelhoneycutt" target="_blank">Check out my Github!</a>
         </div>
       </div>
     </div>
   </nav>
+  
+  <br>
+  <p>&nbsp;Instead of a drop down to select the time this idea just has the digits 0-9 shown and you select
+    the buttons of the time you want.
+  </p>
+  
+  <br>
+  <h3>&nbsp;Please select 4 digits in the order of the time desired (if the hour is a single digit put 0 first):</h3>
 
-  <div id="centered">
-    <br>
-    <p>This is an example of a bad design of when trying to select a year. When trying to input your birthday for <br>
-       something it is very incovinent to start on the current year because most likely the person <br> entering is 
-       older and will have to scroll to find their year. 
-    </p>
-    <img src="img/badYear.jpg" alt="Example of a bad design to select a year.">
-    <br><br>    
-
-    <br>
-    <p>Here is another bad exapmle of having to scroll for something.</p>
-    <img src="img/time.jpg" alt="Example of a bad design to select the time.">
-    <br><br>
+  <div id="digits">
+    <button class="time btn btn-info" type="button">0</button>
+    <button class="time btn btn-info" type="button">1</button>
+    <button class="time btn btn-info" type="button">2</button>
+    <button class="time btn btn-info" type="button">3</button>
+    <button class="time btn btn-info" type="button">4</button>
+    <button class="time btn btn-info" type="button">5</button>
+    <button class="time btn btn-info" type="button">6</button>
+    <button class="time btn btn-info" type="button">7</button>
+    <button class="time btn btn-info" type="button">8</button>
+    <button class="time btn btn-info" type="button">9</button>
   </div>
+
+  <br>&nbsp;
+  <select id="time">
+    <option value="am">AM</option>
+    <option value="pm">PM</option>
+  </select>
+
+  <div id="output">
+    <h1>Time Selected: </h1>
+  </div>
+
 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
