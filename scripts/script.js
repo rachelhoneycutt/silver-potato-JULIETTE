@@ -12,6 +12,7 @@ $(function(){
       if (numClick == 4) {
         $('#console-box').prepend('<br>Year Selected:'+year);
         numClick = 0;
+        year = "";
       }
     });
 
